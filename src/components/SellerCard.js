@@ -26,6 +26,8 @@ function SellerCard() {
 }
 
 const SellerCardStyled = styled.div`
+    margin-top: 50px;
+    margin: 0 50px;
     border-radius: 20px;
     background: rgba(255, 255, 255, .03);
     transition: all .4s ease-in-out;

@@ -18,8 +18,8 @@ const CtaButtonStyled = styled.div`
     font-weight: 500;
     cursor: pointer;
     transition: all .4s ease-in-out;
-        background: linear-gradient(120deg, rgb(241, 118, 116), rgb(132, 111, 244));
-    &:last-child{
+    background: linear-gradient(120deg, rgb(241, 118, 116), rgb(132, 111, 244));
+    &:nth-child(2){
         margin-left: 1.5rem;
     }
 

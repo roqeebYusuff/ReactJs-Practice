@@ -31,6 +31,8 @@ function BlogSection() {
 }
 
 const BlogSectionStyled = styled.div`
+    margin-top: 50px;
+    margin: 0 50px;
     .blogs{
         display: grid;
         grid-template-columns: repeat(4, 1fr);

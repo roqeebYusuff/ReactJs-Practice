@@ -14,6 +14,19 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.2rem;
         font-weight: 400;
         color: #fff;
+
+        ::-webkit-scrollbar{
+            width: 15px;
+        }
+
+        ::-webkit-scrollbar-track{
+            background-color: #ccc;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            background: linear-gradient(180deg, #7f41db 0%, #022894 100%);
+            border-radius: 24px;
+        }
     }
 
     a{
@@ -56,6 +69,12 @@ const GlobalStyle = createGlobalStyle`
         text-align: center;
         width: 50%;
         margin: 0 auto;
+    }
+
+    .gradient-cards-conteiner{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 2rem;
     }
 `;
 
